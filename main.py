@@ -345,7 +345,7 @@ while MyInput != 'q':
                 
                 #Absolute and relative tolerance setup 
                 rtol = 1.0e-9 
-                atol = 1.0e-9 
+                atol = 1.0e-12 
 
 
                 #Solve the ODE using solve_ivp() 
@@ -585,7 +585,7 @@ while MyInput != 'q':
                 plt.grid(True) 
                 plt.xlabel("x position (m)") 
                 plt.ylabel("y position (m)") 
-                plt.title("Circular orbit of Earth-Moon-probe system")  
+                plt.title("Elliptical orbit of Earth-Moon-probe system")  
                 plt.legend(loc = "lower right") 
                 
                 
