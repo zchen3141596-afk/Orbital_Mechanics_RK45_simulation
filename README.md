@@ -64,9 +64,9 @@ README.md
 
 Run the main.py script: 
 
-The pprogram allows the user to select: 
+The programme allows the user to select: 
 
-- Earth-Moon or Earth-Moon-probe system 
+- Earth-Moon (1) or Earth-Moon-probe (2) system 
 - Circular or elliptical orbits
 - Simulation time interval #
 - Distance of the probe to the Moon
