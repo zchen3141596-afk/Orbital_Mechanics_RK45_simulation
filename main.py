@@ -205,7 +205,7 @@ def energy_plot (t, energy, title):
     plt.xlabel("Time (s)") 
     plt.ylabel("Energy (J)") 
     plt.title(title) 
-    plt.legend(loc = "lower right") 
+    plt.legend(loc = "center right") 
     plt.show() 
 
 #Initialisation of variables for choice making and simulation setups 
